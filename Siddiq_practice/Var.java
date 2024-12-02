@@ -1,3 +1,5 @@
+package Siddiq_practice;
+
 public class Var {
 
     int instance_var = 20;

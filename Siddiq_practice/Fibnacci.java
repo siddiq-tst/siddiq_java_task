@@ -1,3 +1,5 @@
+package Siddiq_practice;
+
 import java.util.Scanner;
 public class Fibnacci {
     public static void main(String[] args){

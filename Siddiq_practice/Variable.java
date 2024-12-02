@@ -1,3 +1,5 @@
+package Siddiq_practice;
+
 public class Variable {
     public static void main(String[] args) {
         int a=2;

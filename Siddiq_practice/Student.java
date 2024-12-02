@@ -1,3 +1,5 @@
+package Siddiq_practice;
+
 public class Student {
     String name="Rahul";
     int age=16;

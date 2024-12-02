@@ -1,5 +1,6 @@
+package Siddiq_practice;
 
-    public class Employee {
+public class Employee {
         int eid=123;
         String ename="rahul";
         String job="team lead";

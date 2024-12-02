@@ -1,16 +1,17 @@
+package Advance_java_group_tasks;
 
 class Grandfather {
-    String land = "Land (Grandfather's property)";
+    String land = "Land (Advance_java_group_tasks.Grandfather's property)";
     public void showLand(){
         System.out.println("Inherited property: " + land);
     }
 }
 
 class Father extends Grandfather {
-    String house = "House (Father's property)";
+    String house = "House (Advance_java_group_tasks.Father's property)";
 
     public void showHouse() {
-        System.out.println("Father's own property: " + house);
+        System.out.println("Advance_java_group_tasks.Father's own property: " + house);
     }
 }
 
@@ -18,25 +19,25 @@ class Son extends Father {
     int bankBalance = 500000;
 
     public void showBankbalance() {
-        System.out.println("Son's bank balance: " + bankBalance);
+        System.out.println("Advance_java_group_tasks.Son's bank balance: " + bankBalance);
 
     }
 }
 
 
 class Grandson extends Son {
-    String car = "Car (Grandson's property)";
+    String car = "Car (Advance_java_group_tasks.Grandson's property)";
 
     public void showCar() {
-        System.out.println("Grandson's property: " + car);
+        System.out.println("Advance_java_group_tasks.Grandson's property: " + car);
     }
 }
 
 class Greatgrandson extends Grandson {
-    String gold = "Gold (Greatgrandson's property)";
+    String gold = "Gold (Advance_java_group_tasks.Greatgrandson's property)";
 
     public void showGold() {
-        System.out.println("Greatgrandson's property: " + gold);
+        System.out.println("Advance_java_group_tasks.Greatgrandson's property: " + gold);
     }
 }
 
